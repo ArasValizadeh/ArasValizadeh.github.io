@@ -42,6 +42,24 @@ body.nav-open { overflow: hidden; }
   outline-offset: 3px;
 }
 a { color: inherit; }
+
+.person {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(41, 151, 255, 0.45);
+  text-underline-offset: 3px;
+}
+
+.person:hover {
+  color: var(--teal);
+  text-decoration-color: var(--teal);
+}
+
+.ink .person:hover {
+  color: #7dc1ff;
+  text-decoration-color: #7dc1ff;
+}
 button { font: inherit; }
 img { max-width: 100%; display: block; }
 
@@ -671,6 +689,19 @@ body.nav-open .nav-toggle span::after { top: 0; transform: rotate(-45deg); }
 .card p { margin: 0; color: var(--ink-soft); }
 .card a { color: var(--teal); font-weight: 700; text-decoration: none; }
 .card a:hover { text-decoration: underline; }
+.card a.person {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(41, 151, 255, 0.45);
+}
+.card a.person:hover {
+  color: var(--teal);
+  text-decoration-color: var(--teal);
+}
+.ink .card a.person:hover {
+  color: #7dc1ff;
+  text-decoration-color: #7dc1ff;
+}
 .when { display: block; margin-bottom: 6px; color: var(--saffron); font-size: 0.82rem; font-weight: 700; }
 .ink .when { color: #2997ff; }
 .ink .card { background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.1); color: var(--paper); }
@@ -814,6 +845,8 @@ body.nav-open .nav-toggle span::after { top: 0; transform: rotate(-45deg); }
 }
 
 .venue .badge { margin: 0; }
+.venue a.logo-mark { display: grid; place-items: center; text-decoration: none; }
+.venue a.logo-mark:hover { text-decoration: none; transform: translateY(-2px); }
 
 .footer {
   padding: 28px 0 40px;
