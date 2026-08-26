@@ -1,4 +1,5 @@
 (() => {
+  const header = document.querySelector(".site-nav");
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector("#menu");
   const links = document.querySelectorAll(".menu a[href^='#']");
@@ -21,8 +22,9 @@
     if (event.key === "Escape") setOpen(false);
   });
 
-  const highlight = () => {
-    const offset = window.scrollY + 120;
+  const onScroll = () => {
+    header?.classList.toggle("is-scrolled", window.scrollY > 8);
+    const offset = window.scrollY + 140;
     let current = sections[0]?.id;
     for (const section of sections) {
       if (section.offsetTop <= offset) current = section.id;
@@ -31,13 +33,14 @@
       link.classList.toggle("is-active", link.getAttribute("href") === `#${current}`);
     });
   };
-  window.addEventListener("scroll", highlight, { passive: true });
-  highlight();
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
 
   const year = document.querySelector("#year");
   if (year) year.textContent = String(new Date().getFullYear());
 
-  document.querySelectorAll(".reveal").forEach((el) => {
+  document.querySelectorAll(".reveal").forEach((el, index) => {
+    el.style.animationDelay = `${Math.min(index % 6, 5) * 70}ms`;
     if (reduce) {
       el.classList.add("in");
       return;
@@ -49,7 +52,7 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.12, rootMargin: "0px 0px -32px 0px" });
     observer.observe(el);
   });
 
