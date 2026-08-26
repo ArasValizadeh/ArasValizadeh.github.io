@@ -11,11 +11,12 @@
   <meta property="og:description" content="Computer engineering student at Shahid Beheshti University. Publications in Neurocomputing and IEEE on neuro-fuzzy learning and Persian table detection.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://arasvalizadeh.github.io/">
-  <meta name="theme-color" content="#000000">
+  <meta property="og:image" content="https://arasvalizadeh.github.io/assets/hero-desk.jpg">
+  <meta name="theme-color" content="#f5f5f7">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
@@ -23,10 +24,7 @@
     "@type": "Person",
     "name": "Aras Valizadeh",
     "jobTitle": "Computer Engineering Student and Machine Learning Researcher",
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "Shahid Beheshti University"
-    },
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Shahid Beheshti University" },
     "email": "mailto:arasvalizadeh@gmail.com",
     "url": "https://arasvalizadeh.github.io/",
     "sameAs": [
@@ -40,97 +38,116 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="global-nav">
-    <div class="global-nav-inner">
-      <a class="brand" href="#top">AV</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav-links" aria-label="Open menu">
-        <span></span>
-      </button>
-      <nav id="global-nav-links" class="global-links" aria-label="Primary">
+  <header class="site-nav">
+    <div class="wrap nav-row">
+      <a class="brand" href="#top"><b>AV</b> Aras Valizadeh</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span></button>
+      <nav id="menu" class="menu" aria-label="Primary">
         <a href="#research">Research</a>
         <a href="#education">Education</a>
         <a href="#teaching">Teaching</a>
         <a href="#projects">Projects</a>
-        <a href="#work">Work</a>
         <a href="#contact">Contact</a>
+        <a class="nav-cta" href="assets/ArasValizadeh-CV.pdf">CV</a>
       </nav>
     </div>
   </header>
 
-  <div class="sub-nav">
-    <div class="sub-nav-inner">
-      <p class="sub-nav-title">Aras Valizadeh</p>
-      <a class="btn btn-primary" href="assets/ArasValizadeh-CV.pdf">Download CV</a>
-    </div>
-  </div>
-
   <main id="main">
-    <section class="tile tile-light hero" id="top">
-      <div class="tile-inner">
-        <p class="eyebrow">Shahid Beheshti University · Tehran</p>
-        <h1>Aras Valizadeh</h1>
-        <p class="lead">Computer engineering student and machine learning researcher. Interpretable neuro-fuzzy models, computer vision.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="assets/ArasValizadeh-CV.pdf">Download CV</a>
-          <a class="btn btn-secondary" href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <p class="kicker"><span class="pulse" aria-hidden="true"></span> Tehran · Shahid Beheshti University</p>
+          <h1>Aras Valizadeh</h1>
+          <p class="lede">Computer engineering student and machine learning researcher. I build interpretable neuro-fuzzy models and computer vision systems that make Persian OCR more trustworthy.</p>
+          <div class="actions">
+            <a class="btn btn-fill" href="assets/ArasValizadeh-CV.pdf">Download CV</a>
+            <a class="btn btn-line" href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          </div>
+          <p class="social">
+            <a href="mailto:arasvalizadeh@gmail.com">Email</a>
+            <a href="https://github.com/ArasValizadeh" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/aras-valizadeh-6216b1170" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </p>
+          <div class="stats">
+            <div class="stat"><b data-count="19.13" data-decimals="2">19.13</b><span>GPA / 20</span></div>
+            <div class="stat"><b data-count="2" data-decimals="0">2</b><span>Papers in 2026</span></div>
+            <div class="stat"><b data-count="9" data-decimals="0">9</b><span>TA roles</span></div>
+            <div class="stat"><b>IEEE</b><span>Iran Section</span></div>
+          </div>
         </div>
-        <div class="text-links">
-          <a class="text-link" href="mailto:arasvalizadeh@gmail.com">Email</a>
-          <a class="text-link" href="https://github.com/ArasValizadeh" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="text-link" href="https://www.linkedin.com/in/aras-valizadeh-6216b1170" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-        <div class="stats" aria-label="Highlights">
-          <div class="stat"><b>19.13</b><span>GPA / 20</span></div>
-          <div class="stat"><b>2</b><span>Papers in 2026</span></div>
-          <div class="stat"><b>9</b><span>TA appointments</span></div>
-          <div class="stat"><b>IEEE</b><span>Iran Section</span></div>
+
+        <div class="visual reveal" aria-hidden="true">
+          <img src="assets/hero-desk.jpg" alt="" width="960" height="540">
+          <div class="scan"></div>
+          <svg class="overlay-svg" viewBox="0 0 400 260" fill="none">
+            <path class="curve c1" d="M20 200 C 70 200, 90 40, 140 40 C 190 40, 210 200, 260 200"/>
+            <path class="curve c2" d="M50 210 C 110 210, 130 70, 190 70 C 250 70, 270 210, 330 210"/>
+            <path class="curve c3" d="M80 220 C 140 220, 150 110, 220 110 C 290 110, 300 220, 380 220"/>
+            <rect x="24" y="24" width="70" height="28" rx="4" stroke="#2997ff" stroke-opacity="0.85"/>
+            <rect x="102" y="24" width="90" height="28" rx="4" stroke="#7dc1ff" stroke-opacity="0.8"/>
+            <rect x="24" y="60" width="168" height="28" rx="4" stroke="#0071e3" stroke-opacity="0.7"/>
+          </svg>
+          <span class="float-tag">Table scan · fuzzy rules</span>
         </div>
       </div>
     </section>
 
-    <section class="tile tile-dark" id="research">
-      <div class="tile-inner">
-        <h2>Research</h2>
-        <p class="tile-lead">Models that stay interpretable under messy data, and vision methods that recover document structure when OCR fails.</p>
+    <section class="section ink" id="research">
+      <div class="wrap">
+        <h2 class="reveal">Research</h2>
+        <p class="intro reveal">Models that stay interpretable under messy data, and vision methods that recover document structure when OCR fails.</p>
 
-        <article class="paper">
-          <p class="caption">IEEE IICAI 2026 · pp. 1–6</p>
-          <h3>An Extended Table Detection Framework for Enhanced Recognition of Persian Tables in OCR Systems</h3>
-          <p class="authors">Aras Valizadeh, Bita Baroutian, Fateme Taraghi, Zahra Mohammadi, Atefe Aghaei, and Mohsen Ebrahimi Moghaddam</p>
-          <p class="abstract">Robust OCR for Persian remains difficult when pages contain complex tables. Existing OCR and vision–language methods often miss table structure or invent layout that later extraction cannot trust. We propose a modular, OCR-agnostic framework that plugs into existing systems, evaluate it on a dedicated Persian table dataset, and show stronger table recognition than current OCR and VLM baselines.</p>
-          <div class="paper-links">
-            <a class="text-link-dark" href="https://doi.org/10.1109/IICAI70155.2026.11620979" target="_blank" rel="noopener noreferrer">DOI</a>
-            <a class="text-link-dark" href="https://ieeexplore.ieee.org/abstract/document/11620979" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>
-            <a class="text-link-dark" href="https://github.com/ArasValizadeh/PersianTable-Dataset" target="_blank" rel="noopener noreferrer">Dataset</a>
+        <article class="paper-card reveal">
+          <img src="assets/viz-tables.jpg" alt="Persian document table with detection overlay">
+          <div>
+            <p class="badge">IEEE IICAI 2026 · pp. 1–6</p>
+            <h3>An Extended Table Detection Framework for Enhanced Recognition of Persian Tables in OCR Systems</h3>
+            <p class="meta">Aras Valizadeh, Bita Baroutian, Fateme Taraghi, Zahra Mohammadi, Atefe Aghaei, and Mohsen Ebrahimi Moghaddam</p>
+            <p class="abs">A modular, OCR-agnostic framework for complex Persian tables. Evaluated on a dedicated real-document dataset and stronger than current OCR and VLM baselines.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1109/IICAI70155.2026.11620979" target="_blank" rel="noopener noreferrer">DOI</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/11620979" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>
+              <a href="https://github.com/ArasValizadeh/PersianTable-Dataset" target="_blank" rel="noopener noreferrer">Dataset</a>
+            </div>
           </div>
         </article>
 
-        <article class="paper">
-          <p class="caption">Neurocomputing · Vol. 660, 131866 · 2026</p>
-          <h3>GRIFFIN: A Gated Relaxing Interaction-Aware Fuzzy Framework with Integrated Negation-Aware Neurocomputing to Learn Incomplete and Non-Separable Rules for Classification</h3>
-          <p class="authors">Armin Salimi-Badr, Aras Valizadeh, and Mohammad Mahdi Parchamijalal</p>
-          <p class="abstract">GRIFFIN is a neuro-fuzzy classifier for incomplete and non-separable patterns. It combines learned feature selection, relaxed rule activations, literal modulation, and correlation-aware rules so the model can capture feature interactions without becoming a black box.</p>
-          <div class="paper-links">
-            <a class="text-link-dark" href="https://doi.org/10.1016/j.neucom.2025.131866" target="_blank" rel="noopener noreferrer">DOI</a>
-            <a class="text-link-dark" href="https://github.com/ArasValizadeh/GRIFFIN" target="_blank" rel="noopener noreferrer">Code</a>
-            <a class="text-link-dark" href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <article class="paper-card reveal">
+          <img src="assets/viz-fuzzy.jpg" alt="Abstract visualization of overlapping fuzzy membership curves">
+          <div>
+            <p class="badge">Neurocomputing · 660:131866 · 2026</p>
+            <h3>GRIFFIN: A Gated Relaxing Interaction-Aware Fuzzy Framework</h3>
+            <p class="meta">Armin Salimi-Badr, Aras Valizadeh, and Mohammad Mahdi Parchamijalal</p>
+            <p class="abs">A neuro-fuzzy classifier for incomplete and non-separable patterns: feature selection, relaxed rule activations, and correlation-aware rules without a black box.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1016/j.neucom.2025.131866" target="_blank" rel="noopener noreferrer">DOI</a>
+              <a href="https://github.com/ArasValizadeh/GRIFFIN" target="_blank" rel="noopener noreferrer">Code</a>
+              <a href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            </div>
           </div>
         </article>
 
-        <article class="paper">
-          <p class="caption">In preparation</p>
-          <h3>A Systematic Review on Fuzzy Broad Learning Systems</h3>
-          <p class="abstract">A survey of fuzzy broad learning systems: how they are built, where they work well, and what remains open for scalable, interpretable fuzzy-neural models.</p>
+        <article class="paper-card reveal">
+          <div class="card ink draft-visual">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="20" cy="32" r="12" fill="#0071e3" opacity=".85"/><circle cx="36" cy="32" r="12" fill="#2997ff" opacity=".85"/><circle cx="28" cy="22" r="10" fill="#7dc1ff" opacity=".8"/></svg>
+            <p>Manuscript in preparation</p>
+          </div>
+          <div>
+            <p class="badge">In preparation</p>
+            <h3>A Systematic Review on Fuzzy Broad Learning Systems</h3>
+            <p class="abs">How fuzzy BLS models are built, where they work, and what remains open for scalable interpretable fuzzy-neural systems.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="tile tile-parchment" id="education">
-      <div class="tile-inner">
-        <h2>Education</h2>
-        <p class="tile-lead">B.Sc. in Computer Engineering, with research in neuro-fuzzy learning and computer vision.</p>
-        <div class="split">
-          <article class="utility-card">
+    <section class="section" id="education">
+      <div class="wrap">
+        <h2 class="reveal">Education</h2>
+        <p class="intro reveal">B.Sc. in Computer Engineering, with research in neuro-fuzzy learning and computer vision.</p>
+        <div class="grid-2">
+          <article class="card reveal">
             <span class="when">Sep. 2022 – Present · Tehran</span>
             <h3>Shahid Beheshti University</h3>
             <p>B.Sc. in Computer Engineering. GPA 19.13 / 20.</p>
@@ -141,7 +158,7 @@
               <li>Artificial Intelligence — 19.75/20</li>
             </ul>
           </article>
-          <article class="utility-card">
+          <article class="card reveal">
             <span class="when">Sep. 2019 – Jun. 2022</span>
             <h3>Allameh Helli 3 High School</h3>
             <p>Diploma in Mathematics. Final average 19.84 / 20. NODET school (National Organization for Development of Exceptional Talents).</p>
@@ -150,192 +167,106 @@
       </div>
     </section>
 
-    <section class="tile tile-dark-2" id="experience">
-      <div class="tile-inner">
-        <h2>Labs</h2>
-        <p class="tile-lead">Undergraduate research that became peer-reviewed papers.</p>
-        <div class="stack">
-          <article class="row">
+    <section class="section ink" id="experience">
+      <div class="wrap">
+        <h2 class="reveal">Labs</h2>
+        <p class="intro reveal">Undergraduate research that became peer-reviewed papers.</p>
+        <div class="grid-2">
+          <article class="card reveal">
             <span class="when">2025 – 2026</span>
-            <div>
-              <h3>Neuro-Fuzzy Machine Learning</h3>
-              <p>Shahid Beheshti University. Designed and implemented GRIFFIN, ran classification experiments, and helped write the Neurocomputing paper.</p>
-            </div>
+            <h3>Neuro-Fuzzy Machine Learning</h3>
+            <p>Designed and implemented GRIFFIN, ran classification experiments, and helped write the Neurocomputing paper.</p>
           </article>
-          <article class="row">
+          <article class="card reveal">
             <span class="when">2026</span>
-            <div>
-              <h3>Image Processing and Computer Vision Lab</h3>
-              <p>Proposed and built an extended table-detection framework for Persian OCR under Dr. Mohammad Ebrahim Moghaddam. First author of the IEEE IICAI 2026 paper.</p>
+            <h3>Image Processing and Computer Vision Lab</h3>
+            <p>Proposed the table-detection idea, built the framework under Dr. Mohammad Ebrahim Moghaddam, and served as first author of the IEEE IICAI paper.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="teaching">
+      <div class="wrap">
+        <h2 class="reveal">Teaching</h2>
+        <p class="intro reveal">Head TA and TA across core CS and math courses, plus workshops that turn lectures into working code.</p>
+        <div class="timeline">
+          <article class="row reveal"><span class="when">Spring 2026</span><div><h3>Introduction to Machine Learning · Head TA</h3><p>Dr. Salimi-Badr. End-to-end ML workshop.</p></div></article>
+          <article class="row reveal"><span class="when">Spring 2026</span><div><h3>Linear Algebra · Head TA</h3><p>Dr. Malek. NumPy workshop.</p></div></article>
+          <article class="row reveal"><span class="when">2024 – Present</span><div><h3>Advanced Programming · Head TA</h3><p>Dr. Vahidi-Asl. Guest lecture on thread programming.</p></div></article>
+          <article class="row reveal"><span class="when">Fall 2025</span><div><h3>Artificial Intelligence · TA</h3><p>Dr. Salimi-Badr.</p></div></article>
+          <article class="row reveal"><span class="when">Spring 2025</span><div><h3>Artificial Intelligence · Head TA</h3><p>Dr. Abdoos. Five review sessions.</p></div></article>
+          <article class="row reveal"><span class="when">2024 – 2025</span><div><h3>Digital Logic Circuits · TA</h3><p>Dr. Mahdiani.</p></div></article>
+          <article class="row reveal"><span class="when">Fall 2024</span><div><h3>Discrete Mathematics · Head TA</h3><p>Dr. Abdoos.</p></div></article>
+          <article class="row reveal"><span class="when">2024</span><div><h3>Computer Architecture · TA</h3><p>Dr. Rahmati.</p></div></article>
+          <article class="row reveal"><span class="when">Spring 2024</span><div><h3>Data Structures · TA</h3><p>Dr. Alidoost-Nia.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="talks">
+      <div class="wrap">
+        <h2 class="reveal">Talks</h2>
+        <p class="intro reveal">Guest lectures and technical workshops.</p>
+        <div class="grid-talks">
+          <article class="card reveal"><h3>Thread Programming</h3><p>Guest lecture, Advanced Programming.</p></article>
+          <article class="card reveal"><h3>Introduction to NumPy</h3><p>Linear Algebra workshop. <a href="https://github.com/ArasValizadeh/Introduction-to-NumPy" target="_blank" rel="noopener noreferrer">Materials</a></p></article>
+          <article class="card reveal"><h3>AI course review</h3><p>Five instructor-led review sessions.</p></article>
+          <article class="card reveal"><h3>End-to-end ML project</h3><p>Workshop for Introduction to Machine Learning.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ink" id="work">
+      <div class="wrap">
+        <h2 class="reveal">Work and service</h2>
+        <p class="intro reveal">Industry engineering, faculty publishing, and IEEE programs.</p>
+        <div class="grid-3">
+          <article class="card reveal"><span class="when">Aug 2023 – Jan 2024</span><h3>Back-end Developer · Sama Soft</h3><p>Node.js and Express microservices and APIs.</p></article>
+          <article class="card reveal"><span class="when">2024 – 2027</span><h3>Managing Editor</h3><p>SBU CSE Publication, with Prof. Shams Aliee.</p></article>
+          <article class="card reveal"><span class="when">Since 2025</span><h3>IEEE Iran Section</h3><p>Secretary, Professional Activities Committee. Head of IAI student committee.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <h2 class="reveal">Projects</h2>
+        <p class="intro reveal">Selected work in vision, architecture, and scientific NLP.</p>
+        <div class="grid-3">
+          <article class="card project reveal">
+            <img src="assets/project-sudoku.jpg" alt="Printed Sudoku grid with computer-vision cell detection overlay">
+            <div class="project-body">
+              <h3>Vision-based Sudoku solver</h3>
+              <p>Detects a printed board, reads digits with a CNN, repairs OCR errors with Sudoku constraints, and draws the solution back onto the photo.</p>
+              <p><a href="https://github.com/ArasValizadeh/sudoku-vision-solver" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <img src="assets/project-mips.jpg" alt="Processor die and schematic of a five-stage pipeline">
+            <div class="project-body">
+              <h3>MIPS pipeline processor</h3>
+              <p>Pipelined MIPS processor in Verilog: datapath, core stages, and simulation through the pipeline.</p>
+              <p><a href="https://github.com/ArasValizadeh/MIPS-Pipeline" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <img src="assets/project-summarizer.jpg" alt="Scientific paper and laptop showing a summarization workspace">
+            <div class="project-body">
+              <h3>Scientific paper summarizer</h3>
+              <p>Chunks PDFs, retrieves with embeddings and ChromaDB, and answers questions with OpenAI or local Llama in Streamlit.</p>
+              <p><a href="https://github.com/ArasValizadeh/Paper-Summarizer" target="_blank" rel="noopener noreferrer">GitHub</a></p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="tile tile-light" id="teaching">
-      <div class="tile-inner">
-        <h2>Teaching</h2>
-        <p class="tile-lead">Head TA and TA across core CS and math courses, plus workshops that turn lectures into working code.</p>
-        <div class="stack">
-          <article class="row">
-            <span class="when">Spring 2026</span>
-            <div>
-              <h3>Introduction to Machine Learning · Head TA</h3>
-              <p>Dr. Salimi-Badr. End-to-end machine learning project workshop.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Spring 2026</span>
-            <div>
-              <h3>Linear Algebra · Head TA</h3>
-              <p>Dr. Malek. NumPy workshop.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Spring 2024 – Present</span>
-            <div>
-              <h3>Advanced Programming · Head TA</h3>
-              <p>Dr. Vahidi-Asl. Guest lecture on thread programming.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Fall 2025</span>
-            <div>
-              <h3>Artificial Intelligence · TA</h3>
-              <p>Dr. Salimi-Badr.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Spring 2025</span>
-            <div>
-              <h3>Artificial Intelligence · Head TA</h3>
-              <p>Dr. Abdoos. Five instructor-style review sessions.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Fall 2024 – Spring 2025</span>
-            <div>
-              <h3>Digital Logic Circuits · TA</h3>
-              <p>Dr. Mahdiani.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Fall 2024</span>
-            <div>
-              <h3>Discrete Mathematics · Head TA</h3>
-              <p>Dr. Abdoos.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Spring 2024 – Fall 2024</span>
-            <div>
-              <h3>Computer Architecture · TA</h3>
-              <p>Dr. Rahmati.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Spring 2024</span>
-            <div>
-              <h3>Data Structures · TA</h3>
-              <p>Dr. Alidoost-Nia.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="tile tile-parchment" id="talks">
-      <div class="tile-inner wide">
-        <h2>Talks</h2>
-        <p class="tile-lead">Guest lectures and technical workshops.</p>
-        <div class="card-grid-2">
-          <article class="utility-card">
-            <h3>Thread Programming</h3>
-            <p>Guest lecture, Advanced Programming.</p>
-          </article>
-          <article class="utility-card">
-            <h3>Introduction to NumPy</h3>
-            <p>Technical workshop, Linear Algebra. <a class="text-link" href="https://github.com/ArasValizadeh/Introduction-to-NumPy" target="_blank" rel="noopener noreferrer">Materials</a></p>
-          </article>
-          <article class="utility-card">
-            <h3>AI course review</h3>
-            <p>Five instructor-led review sessions covering Artificial Intelligence chapters.</p>
-          </article>
-          <article class="utility-card">
-            <h3>End-to-end ML project</h3>
-            <p>Workshop for Introduction to Machine Learning.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="tile tile-dark-3" id="work">
-      <div class="tile-inner">
-        <h2>Work and service</h2>
-        <p class="tile-lead">Industry engineering, faculty publishing, and IEEE programs.</p>
-        <div class="stack">
-          <article class="row">
-            <span class="when">Aug 2023 – Jan 2024</span>
-            <div>
-              <h3>Back-end Developer · Sama Soft</h3>
-              <p>Microservice backends with Node.js and Express.js. Implemented and maintained APIs.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Mar 2024 – Jun 2027</span>
-            <div>
-              <h3>Managing Editor · SBU CSE Publication</h3>
-              <p>Podcasts and journals for the faculty, with Prof. Shams Aliee.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">Since 2025</span>
-            <div>
-              <h3>Secretary, Professional Activities · IEEE Iran Section</h3>
-              <p>Coordinates professional and technical programs.</p>
-            </div>
-          </article>
-          <article class="row">
-            <span class="when">IAI</span>
-            <div>
-              <h3>Head of Student Committee</h3>
-              <p>Shahid Beheshti University Artificial Intelligence Conference, with Dr. Salimi-Badr.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="tile tile-light" id="projects">
-      <div class="tile-inner wide">
-        <h2>Projects</h2>
-        <p class="tile-lead">Selected work in vision, architecture, and scientific NLP.</p>
-        <div class="card-grid">
-          <article class="utility-card">
-            <h3>Vision-based Sudoku solver</h3>
-            <p>Detects a printed board, warps it, reads digits with a CNN, repairs OCR errors using Sudoku constraints, and draws the solution back onto the photo.</p>
-            <p class="card-follow"><a class="text-link" href="https://github.com/ArasValizadeh/sudoku-vision-solver" target="_blank" rel="noopener noreferrer">Learn more</a></p>
-          </article>
-          <article class="utility-card">
-            <h3>MIPS pipeline processor</h3>
-            <p>Pipelined MIPS processor in Verilog: datapath, core stages, and simulation to check instruction flow through the pipeline.</p>
-            <p class="card-follow"><a class="text-link" href="https://github.com/ArasValizadeh/MIPS-Pipeline" target="_blank" rel="noopener noreferrer">Learn more</a></p>
-          </article>
-          <article class="utility-card">
-            <h3>Scientific paper summarizer</h3>
-            <p>Chunks PDFs, retrieves with sentence embeddings and ChromaDB, and answers questions. Supports OpenAI and local Llama models in Streamlit.</p>
-            <p class="card-follow"><a class="text-link" href="https://github.com/ArasValizadeh/Paper-Summarizer" target="_blank" rel="noopener noreferrer">Learn more</a></p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="tile tile-parchment" id="skills">
-      <div class="tile-inner">
-        <h2>Skills</h2>
-        <p class="tile-lead">Languages, libraries, and the ones I speak.</p>
-        <article class="utility-card">
+    <section class="section" id="skills">
+      <div class="wrap">
+        <h2 class="reveal">Skills</h2>
+        <p class="intro reveal">Languages, libraries, and the ones I speak.</p>
+        <article class="card reveal">
           <h3>Programming</h3>
           <div class="chips">
             <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C</span>
@@ -343,78 +274,47 @@
             <span class="chip">Verilog</span><span class="chip">Assembly</span>
           </div>
         </article>
-        <div class="stack stack-follow">
-          <article class="utility-card">
-            <h3>Libraries and frameworks</h3>
-            <div class="chips">
-              <span class="chip">PyTorch</span><span class="chip">OpenCV</span><span class="chip">NumPy</span>
-              <span class="chip">Pandas</span><span class="chip">Scikit-learn</span><span class="chip">Matplotlib</span>
-              <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Flutter</span>
-              <span class="chip">Svelte</span><span class="chip">Git</span>
-            </div>
-          </article>
-          <article class="utility-card">
-            <h3>Spoken languages</h3>
-            <div class="chips">
-              <span class="chip">Persian · native</span>
-              <span class="chip">Kurdish · native</span>
-              <span class="chip">English · B2</span>
-            </div>
-          </article>
-        </div>
+        <article class="card reveal stack-card">
+          <h3>Libraries</h3>
+          <div class="chips">
+            <span class="chip">PyTorch</span><span class="chip">OpenCV</span><span class="chip">NumPy</span>
+            <span class="chip">Pandas</span><span class="chip">Scikit-learn</span><span class="chip">Matplotlib</span>
+            <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Flutter</span>
+            <span class="chip">Svelte</span><span class="chip">Git</span>
+          </div>
+        </article>
+        <article class="card reveal stack-card">
+          <h3>Spoken</h3>
+          <div class="chips">
+            <span class="chip">Persian · native</span>
+            <span class="chip">Kurdish · native</span>
+            <span class="chip">English · B2</span>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="tile tile-light" id="contact">
-      <div class="tile-inner contact-block">
-        <h2>Get in touch</h2>
-        <p class="tile-lead">Based in Tehran. Happy to talk about research, teaching, or collaboration.</p>
-        <div class="actions">
-          <a class="btn btn-store" href="mailto:arasvalizadeh@gmail.com">Email me</a>
-          <a class="btn btn-secondary" href="assets/ArasValizadeh-CV.pdf">Download CV</a>
+    <section class="section" id="contact">
+      <div class="wrap contact reveal">
+        <div>
+          <h2>Get in touch</h2>
+          <p class="intro">Based in Tehran. Happy to talk about research, teaching, or collaboration.</p>
         </div>
-        <div class="text-links">
-          <a class="text-link" href="tel:+989335260287">+98 933 526 0287</a>
-          <a class="text-link" href="https://github.com/ArasValizadeh" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="text-link" href="https://www.linkedin.com/in/aras-valizadeh-6216b1170" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a class="text-link" href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <div>
+          <a href="mailto:arasvalizadeh@gmail.com">arasvalizadeh@gmail.com</a>
+          <a href="tel:+989335260287">+98 933 526 0287</a>
+          <a href="https://github.com/ArasValizadeh" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/aras-valizadeh-6216b1170" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="assets/ArasValizadeh-CV.pdf">Download CV</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-grid">
-        <div>
-          <h2>Research</h2>
-          <a href="#research">Publications</a>
-          <a href="https://scholar.google.com/citations?user=hXckiacAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-          <a href="https://github.com/ArasValizadeh/GRIFFIN" target="_blank" rel="noopener noreferrer">GRIFFIN</a>
-          <a href="assets/ArasValizadeh-CV.pdf">Curriculum Vitae</a>
-        </div>
-        <div>
-          <h2>Explore</h2>
-          <a href="#education">Education</a>
-          <a href="#teaching">Teaching</a>
-          <a href="#projects">Projects</a>
-          <a href="#work">Work</a>
-        </div>
-        <div>
-          <h2>Connect</h2>
-          <a href="mailto:arasvalizadeh@gmail.com">Email</a>
-          <a href="https://github.com/ArasValizadeh" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/aras-valizadeh-6216b1170" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="tel:+989335260287">Phone</a>
-        </div>
-      </div>
-      <div class="legal">
-        <span>Copyright © <span id="year">2026</span> Aras Valizadeh. All rights reserved.</span>
-        <span>arasvalizadeh.github.io</span>
-      </div>
-    </div>
+    <div class="wrap">© <span id="year">2026</span> Aras Valizadeh · arasvalizadeh.github.io</div>
   </footer>
-
   <script src="js/main.js"></script>
 </body>
 </html>
